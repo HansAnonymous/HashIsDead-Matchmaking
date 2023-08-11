@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const description = ref("HashIsDead's Matchmaking Results");
-</script>
-
 <template>
   <!--
     TODO IMPL: Match 3 Pizza Toppings = Match!
@@ -9,10 +5,10 @@ const description = ref("HashIsDead's Matchmaking Results");
     TODO FIX: Scores Page Height for background color
     TODO FIX: Scores Page doubles cards after reloading
   -->
-  <!-- <Head>
+  <Head>
     <title>HashIsDead Matchmaking</title>
-    <Meta name="description" :content="description" />
-  </Head> -->
+    <Meta name="description" content="HashIsDead's Matchmaking Results" />
+  </Head>
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
     <Header />
     <NuxtPage />
