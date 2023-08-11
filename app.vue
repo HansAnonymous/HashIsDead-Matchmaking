@@ -3,6 +3,14 @@ const description = ref("HashIsDead's Matchmaking Results");
 </script>
 
 <template>
+  <!--
+    TODO IMPL: Match 3 Pizza Toppings = Match!
+    TODO IMPL: Change Lowest Score Background
+    TODO IMPL: Change 1/2 Scores Background to Orange
+    TODO FIX: Fix dropdown search being duplicated
+    TODO FIX: Scores Page Height for background color
+    TODO FIX: Scores Page doubles cards after reloading
+  -->
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
     <Head>
       <title>HashIsDead Matchmaking</title>

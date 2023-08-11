@@ -40,7 +40,7 @@ const { viewer, otherViewer } = defineProps({
 		<Detail topic="Is a Hot Dog a Sandwich?" :answer="viewer.HotDog" :otherAnswer="otherViewer.HotDog" />
 		<Detail topic="Favorite Bloons Tower Defense Monkey" :answer="viewer.BTD" :otherAnswer="otherViewer.BTD" />
 		<Detail topic='Favorite of "The Boys"' :answer="viewer.Boys" :otherAnswer="otherViewer.Boys" />
-		<Detail topic="Resident of Time Prism?" :answer="viewer.TimePrison" :otherAnswer="otherViewer.TimePrison" />
+		<Detail topic="Resident of Time Prison?" :answer="viewer.TimePrison" :otherAnswer="otherViewer.TimePrison" />
 		<Detail topic="Favorite Hash Multiplayer Game" :answer="viewer.HashGame" :otherAnswer="otherViewer.HashGame" />
 		<Detail topic="Can Hash Fight a Giraffe?" :answer="viewer.Giraffe" :otherAnswer="otherViewer.Giraffe" />
 	</div>

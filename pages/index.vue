@@ -46,6 +46,7 @@ const score = computed(() => {
 		<div class="space-y-2">
 			<div class="grid grid-cols-2 gap-2 px-2 mx-auto max-w-3xl">
 				<SearchList :selectedPerson="selectedFirst" :people="opinions" @change="updateFirst"></SearchList>
+				<p class="text-[#FFC2C2] hidden">.</p>
 				<SearchList :selectedPerson="selectedSecond" :people="opinions" @change="updateSecond"></SearchList>
 			</div>
 			<div class="flex justify-center">

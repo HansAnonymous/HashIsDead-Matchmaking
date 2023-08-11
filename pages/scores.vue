@@ -61,9 +61,10 @@ const highestScore = computed(() => {
           <li v-for="person in filteredPeople" :key="person.id"
           class="rounded-md p-2 text-center text-md border-2"
           :class="{
-            'bg-green-200 border-green-600': person.Score === highestScore,
+            'bg-green-300 border-green-600': person.Score === highestScore,
             'bg-red-300 border-red-600' : person.Score === 0,
-            'bg-white border-blue-200': person.Score !== highestScore
+            'bg-orange-300/60 border-orange-600': (person.Score === 1 || person.Score === 2) && person.Score !== highestScore,
+            'bg-white border-blue-200': person.Score !== highestScore && person.Score > 2,
           }"
           >
           <p>
