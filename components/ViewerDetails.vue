@@ -14,7 +14,7 @@ const { viewer, otherViewer } = defineProps({
 <template>
 	<div
 		class="flex flex-col w-full h-full bg-white rounded-md p-2 space-y-2">
-		<p class="text-xs font-medium">
+		<p class="text-md font-medium">
 			<a :href="'https://twitch.tv/' + viewer.TwitchName"
 				target="_blank"
 				rel="noreferrer"
@@ -24,12 +24,12 @@ const { viewer, otherViewer } = defineProps({
 			</a>
 			<span
 				v-if="viewer.PostStream === 'TRUE'"
-				class="text-xxs text-red-400 font-medium float-right align-text-top"
+				class="text-xs text-red-400 font-medium float-right align-text-top"
 			>
 				Viewer submitted post-stream!
 			</span>
 		</p>
-		<h4 class="text-lg font-bold">
+		<h4 class="text-xl font-bold">
 			Responses
 		</h4>
 		<Detail topic="Favorite Dinosaur" :answer="viewer.FavoriteDinosaur" :otherAnswer="otherViewer.FavoriteDinosaur" />

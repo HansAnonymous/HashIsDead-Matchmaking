@@ -49,7 +49,7 @@ const score = computed(() => {
 				<SearchList :selectedPerson="selectedSecond" :people="opinions" @change="updateSecond"></SearchList>
 			</div>
 			<div class="flex justify-center">
-				<p class="bg-red-400 px-12 py-1 rounded-lg">
+				<p class="bg-red-400 px-12 py-1 rounded-lg text-xl font-bold">
 					Matchmaking Score: {{ score }}
 				</p>
 			</div>

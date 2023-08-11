@@ -21,13 +21,13 @@ const { topic, answer, otherAnswer } = defineProps({
 	:class="{
 		'bg-green-200': answer === otherAnswer,
 		'bg-gray-200': answer !== otherAnswer,
-		'h-24': topic === 'Pizza Toppings That Are Tasty',
-		'h-20': topic === 'Is a Hot Dog a Sandwich?'
+		'h-44': topic === 'Pizza Toppings That Are Tasty',
+		'h-24': topic === 'Is a Hot Dog a Sandwich?'
 	}">
-	<h5 class="text-md">
+	<h5 class="text-xl">
 		{{ topic }}
 	</h5>
-	<p class="text-xs font-light">
+	<p class="text-md font-light">
 		{{ answer !== "" ? answer.split(';').join(', ') : "No Response" }}
 	</p>
 </div>

@@ -52,8 +52,12 @@ const highestScore = computed(() => {
 <template>
   	<div class="bg-[#FFC2C2] pb-12">
       <div class="px-2 space-y-2">
-        <SearchList :selectedPerson="selected" :people="opinions" @change="updateSelected"></SearchList>
-        <ul class="grid grid-cols-4 gap-2">
+        <SearchList
+          :selectedPerson="selected"
+          :people="opinions"
+          @change="updateSelected"
+          class="md:max-w-5xl mx-auto"/>
+        <ul class="grid sm:grid-cols-2 md:grid-cols-3 md:mx-auto md:max-w-5xl lg:grid-cols-4 gap-2">
           <li v-for="person in filteredPeople" :key="person.id"
           class="rounded-md p-2 text-center text-md border-2"
           :class="{
