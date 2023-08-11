@@ -3,15 +3,14 @@ const description = ref("HashIsDead's Matchmaking Results");
 </script>
 
 <template>
-  <Head>
-    <title>HashIsDead Matchmaking</title>
-    <Meta name="description" :content="description" />
-    <Style type="text/css" children="html, body, #__nuxt, #__layout { width: 100%; height: 100%; } *, :after, :before { box-sizing: border-box !important;}" />
-  </Head>
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
+    <Head>
+      <title>HashIsDead Matchmaking</title>
+      <Meta name="description" :content="description" />
+      <Style type="text/css" children="html, body, #__nuxt, #__layout { width: 100%; height: 100%; } *, :after, :before { box-sizing: border-box !important;}" />
+    </Head>
     <Header />
     <NuxtPage />
-    <!-- <AppFooter /> -->
   </div>
 </template>
 
