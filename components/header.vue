@@ -4,7 +4,7 @@
 			<a href="https://twitch.tv/HashIsDead" target="_blank" rel="noreferrer">
 				<img
 					class="rounded-lg hover:rounded-xl hover:scale-95 transition-all"
-					src="~/assets/img/HashIsDead.png"
+					src="~/assets/img/hashisdead.png"
 					width="40"
 					alt="HashIsDead" />
 			</a>
