@@ -9,10 +9,10 @@ const description = ref("HashIsDead's Matchmaking Results");
     TODO FIX: Scores Page Height for background color
     TODO FIX: Scores Page doubles cards after reloading
   -->
-  <Head>
+  <!-- <Head>
     <title>HashIsDead Matchmaking</title>
     <Meta name="description" :content="description" />
-  </Head>
+  </Head> -->
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
     <Header />
     <NuxtPage />
