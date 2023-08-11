@@ -6,7 +6,7 @@
     TODO FIX: Scores Page doubles cards after reloading
   -->
   <Head>
-    <title>HashIsDead Matchmaking</title>
+    <Title>HashIsDead Matchmaking</Title>
     <Meta name="description" content="HashIsDead's Matchmaking Results" />
   </Head>
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
