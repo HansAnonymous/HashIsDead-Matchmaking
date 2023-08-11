@@ -12,11 +12,11 @@ const description = ref("HashIsDead's Matchmaking Results");
     TODO FIX: Scores Page doubles cards after reloading
   -->
   <div class="flex flex-col w-full h-full bg-[#FFC2C2]">
-    <Head>
+    <!-- <Head>
       <title>HashIsDead Matchmaking</title>
       <Meta name="description" :content="description" />
       <Style type="text/css" children="html, body, #__nuxt, #__layout { width: 100%; height: 100%; } *, :after, :before { box-sizing: border-box !important;}" />
-    </Head>
+    </Head> -->
     <Header />
     <NuxtPage />
   </div>
