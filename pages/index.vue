@@ -45,9 +45,8 @@ const score = computed(() => {
 	<div class="bg-[#FFC2C2] pb-12">
 		<div class="space-y-2">
 			<div class="grid grid-cols-2 gap-2 px-2 mx-auto max-w-3xl">
-				<SearchList :selectedPerson="selectedFirst" :people="opinions" @change="updateFirst"></SearchList>
-				<p class="text-[#FFC2C2] hidden">.</p>
-				<SearchList :selectedPerson="selectedSecond" :people="opinions" @change="updateSecond"></SearchList>
+				<SearchList id="firstSearch" :selectedPerson="selectedFirst" :people="opinions" @change="updateFirst"></SearchList>
+				<SearchList id="secondSearch" :selectedPerson="selectedSecond" :people="opinions" @change="updateSecond"></SearchList>
 			</div>
 			<div class="flex justify-center">
 				<p class="bg-red-400 px-12 py-1 rounded-lg text-xl font-bold">
